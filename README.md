@@ -1,6 +1,16 @@
 # Sesi_001_ECOTECHNOLEADERS
 Materi pembelajaran untuk sesi pertama ECOTECHNOLEADERS
 
+---
+
+## LINK SILABUS PEMBELAJARAN ECO-TECHNO LEADERS (ETL)
+![SILABUS](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/blob/main/ETC-DB%20BATCH%209-10.xlsx)
+---
+
+### ETL'ers sering di lihat ya repository untuk MATERI dan TASK UPDATE di
+![LINK](https://github.com/arry-hutomo)
+---
+
 # Materi Pelatihan ECOTECHNOLEADERS - Sesi 001
 
 Selamat datang di materi pelatihan sesi pertama untuk ECOTECHNOLEADERS!
