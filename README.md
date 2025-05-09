@@ -91,6 +91,9 @@ STAGES 001:  GREEN TECH INNOVATE (MEETING 001)
     ```bash
     cls
     ```
+[CMDTRIK](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/blob/main/tipandtrik_cmd/README.md)
+>>> KLIK LINK DIATAS untuk melihat tip and trik lain
+---
 
 **Memahami Path dan Environment Variable di Windows:**
 
