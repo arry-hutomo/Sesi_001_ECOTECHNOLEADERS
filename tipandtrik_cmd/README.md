@@ -21,6 +21,12 @@ Wih, Eco-Techno Leaders! 😎 Kalian yang baru nyemplung dunia komputer, siap-si
 5.  **🗺️ Bongkar Detail Konfigurasi Jaringan Kamu (Kayak Baca Peta Harta Karun Internet! 💰):**
     * **Perintah CMD:** `ipconfig /all`
     * **Narasinya:** Penasaran sama semua info detail koneksi internet kamu? 🧐 Alamat IP kamu berapa, *gateway*-nya kemana, DNS servernya siapa, alamat MAC kartu Wi-Fi kamu apa, dan segudang info lainnya? 🤯 Ketik **`ipconfig /all`** di CMD terus **Enter**. Semua rahasia konfigurasi jaringan kamu bakal kebongkar! Ini berguna banget buat nyari masalah kalau tiba-tiba internet kamu ngambek. 😠
+  
+    * `netsh wlan show profiles`
+    * `netsh wlan show profile name="NAMA_PROFIL_WIFI" key=clear`
+    * 
+ini bisa ngecek "perangkat Anda kemana aja hehehe pakai WIFI public" 
+
 ---
 6.  **🧹 Bersihin Sampah DNS Biar Browsing Makin Ngebut (Kayak Maraton Abis Minum *Energy Drink*! ⚡):**
     * **Perintah CMD:** `ipconfig /flushdns`
