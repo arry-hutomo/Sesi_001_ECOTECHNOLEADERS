@@ -4,11 +4,11 @@ Materi pembelajaran untuk sesi pertama ECOTECHNOLEADERS
 ---
 
 ## LINK SILABUS PEMBELAJARAN ECO-TECHNO LEADERS (ETL)
-![SILABUS](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/blob/main/ETC-DB%20BATCH%209-10.xlsx)
+![SILABUS](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/blob/main/ETC-DB%20BATCH%209-10.xlsx) , <-- Klik link silabus ⬇️
 ---
 
 ### ETL'ers sering di lihat ya repository untuk MATERI dan TASK UPDATE di
-![LINK](https://github.com/arry-hutomo)
+![LINK](https://github.com/arry-hutomo), <-- Klik Repository Arry Hutomo
 ---
 
 # Materi Pelatihan ECOTECHNOLEADERS - Sesi 001
