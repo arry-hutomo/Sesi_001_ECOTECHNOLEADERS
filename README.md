@@ -107,6 +107,8 @@ Tetapi Eco Techno Leader untuk Bootcamp ini teman2  ambil dari sini yah :
 
 Jika Anda mengalami kesulitan mengunduh Python dari situs web resmi, Anda dapat menggunakan tautan alternatif berikut untuk mengunduh *installer* Python versi 3.9.13 (64-bit) yang telah disediakan:
 
+![Panduan Download Python](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/raw/main/downloadpython.png)
+
 **Tautan Google Drive:** [https://drive.google.com/drive/folders/19sN7v5BgAnjz34-EFMw8c83tl917Urer](https://drive.google.com/drive/folders/19sN7v5BgAnjz34-EFMw8c83tl917Urer)
 
 **Langkah-langkah Mengunduh dari Google Drive:**
