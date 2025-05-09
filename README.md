@@ -2,7 +2,7 @@
 
 ## Materi pembelajaran untuk sesi pertama ECOTECHNOLEADERS
 ---
-**Oke, gaspol ETL'ers! Perjalanan belajar kita ini ada stages-nya, mulai dari "Green Tech Innovate" di Stage 1, lanjut jadi "Eco Data Pioneers" di Stage 2, terus "Sustainable AI Innovators" di Stage 3, hingga jadi "Future Eco Visionaries" di Stage 4 dan puncaknya sebagai "AI Eco Trailblazers" di Stage 5. Pastikan kalian baca dan simak tiap materi sampai tuntas, ya! Soalnya, program ini bakal ngasih kalian superpower buat ngadepin disruptive sustainability pake teknologi. Kalian bakal di-support tim ECC, Komunitas Nawala Integra Nusantara, dan Lead Mentor Kak Arry Hutomo. Setiap step ngebuka wawasan buat solusi inovatif. Semangat!**
+### **Oke, gaspol ETL'ers! Perjalanan belajar kita ini ada stages-nya, mulai dari "Green Tech Innovate" di Stage 1, lanjut jadi "Eco Data Pioneers" di Stage 2, terus "Sustainable AI Innovators" di Stage 3, hingga jadi "Future Eco Visionaries" di Stage 4 dan puncaknya sebagai "AI Eco Trailblazers" di Stage 5. Pastikan kalian baca dan simak tiap materi sampai tuntas, ya! Soalnya, program ini bakal ngasih kalian superpower buat ngadepin disruptive sustainability pake teknologi. Kalian bakal di-support tim ECC, Komunitas Nawala Integra Nusantara, dan Lead Mentor Kak Arry Hutomo. Setiap step ngebuka wawasan buat solusi inovatif. Semangat!**
 ---
 
 ## LINK SILABUS PEMBELAJARAN ECO-TECHNO LEADERS (ETL)
