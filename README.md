@@ -95,7 +95,37 @@ STAGES 001:  GREEN TECH INNOVATE (MEETING 001)
 [[Kembali ke Daftar Isi](#daftar-isi)]
 
 **Mengunduh Installer Python:**
-Buka *browser* dan kunjungi [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/). Unduh versi Python 3 terbaru.
+Buka *browser* dan kunjungi [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/). Unduh versi Python 3 untuk general
+
+Tetapi Eco Techno Leader untuk Bootcamp ini teman2  ambil dari sini yah :
+
+---
+
+## ⬇️ Alternatif Unduhan Python dari Google Drive
+
+[[Kembali ke Daftar Isi](#daftar-isi)]
+
+Jika Anda mengalami kesulitan mengunduh Python dari situs web resmi, Anda dapat menggunakan tautan alternatif berikut untuk mengunduh *installer* Python versi 3.9.13 (64-bit) yang telah disediakan:
+
+**Tautan Google Drive:** [https://drive.google.com/drive/folders/19sN7v5BgAnjz34-EFMw8c83tl917Urer](https://drive.google.com/drive/folders/19sN7v5BgAnjz34-EFMw8c83tl917Urer)
+
+**Langkah-langkah Mengunduh dari Google Drive:**
+
+1.  **Buka Tautan Google Drive:** Klik tautan di atas atau salin dan tempelkan ke bilah alamat peramban internet Anda, lalu tekan Enter. Anda akan diarahkan ke folder Google Drive yang berisi beberapa *file*.
+
+2.  **Cari File Installer Python:** Di dalam folder Google Drive, cari *file* dengan nama **`python-3.9.13-amd64.exe`**.
+
+3.  **Pilih File untuk Diunduh:** Klik satu kali pada nama *file* **`python-3.9.13-amd64.exe`** untuk memilihnya.
+
+4.  **Unduh File:** Setelah *file* terpilih, cari ikon **Unduh** (biasanya berbentuk panah menghadap ke bawah atau tiga titik vertikal yang akan membuka menu, lalu pilih **Unduh**). Ikon ini mungkin terletak di bagian atas halaman Google Drive.
+
+5.  **Konfirmasi Unduhan (Jika Diperlukan):** Peramban Anda mungkin akan meminta konfirmasi sebelum memulai unduhan. Klik **Simpan** atau **OK** untuk melanjutkan.
+
+6.  **Tunggu hingga Unduhan Selesai:** Proses unduhan akan dimulai. Anda dapat melihat status unduhan di bagian bawah peramban Anda atau di jendela unduhan peramban Anda.
+
+Setelah *file* **`python-3.9.13-amd64.exe`** selesai diunduh, Anda dapat melanjutkan ke langkah-langkah instalasi Python seperti yang dijelaskan di bagian [Jam ke-2: Instalasi Python di Windows](#jam-ke-2-instalasi-python-di-windows) pada panduan ini.
+
+---
 
 **Menjalankan Installer Python:**
 Klik dua kali *file* `.exe`. **Pastikan centang "Add Python X.X to PATH"**. Ikuti langkah instalasi.
