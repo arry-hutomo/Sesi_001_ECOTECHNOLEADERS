@@ -1,11 +1,15 @@
-# Sesi_001_ECOTECHNOLEADERS
-Materi pembelajaran untuk sesi pertama ECOTECHNOLEADERS
+![PROGRAM ECC X NIN](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/raw/main/PROGRAM%20ECC%20X%20NIN.png)
 
+## Materi pembelajaran untuk sesi pertama ECOTECHNOLEADERS
+
+Oke, gaspol ETL'ers! Perjalanan belajar kita ini ada stages-nya, mulai dari "Green Tech Innovate" di Stage 1, lanjut jadi "Eco Data Pioneers" di Stage 2, terus "Sustainable AI Innovators" di Stage 3, hingga jadi "Future Eco Visionaries" di Stage 4 dan puncaknya sebagai "AI Eco Trailblazers" di Stage 5. Pastikan kalian baca dan simak tiap materi sampai tuntas, ya! Soalnya, program ini bakal ngasih kalian superpower buat ngadepin disruptive sustainability pake teknologi. Kalian bakal di-support tim ECC, Komunitas Nawala Integra Nusantara, dan Lead Mentor Kak Arry Hutomo. Setiap step ngebuka wawasan buat solusi inovatif. Semangat!
 ---
 
 ## LINK SILABUS PEMBELAJARAN ECO-TECHNO LEADERS (ETL)
 [SILABUS](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/blob/main/ETC-DB%20BATCH%209-10.xlsx)
 Klik link silabus ⬇️
+
+
 ---
 
 ### ETL'ers sering di lihat ya repository untuk MATERI dan TASK UPDATE di
@@ -21,7 +25,7 @@ STAGES 001:  GREEN TECH INNOVATE (MEETING 001)
 
 ---
 
-![PROGRAM ECC X NIN](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/raw/main/PROGRAM%20ECC%20X%20NIN.png)
+
 
 
 ## 📚 Daftar Isi
