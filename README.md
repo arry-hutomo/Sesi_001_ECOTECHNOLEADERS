@@ -128,7 +128,110 @@ Jika Anda mengalami kesulitan mengunduh Python dari situs web resmi, Anda dapat 
 Setelah *file* **`python-3.9.13-amd64.exe`** selesai diunduh, Anda dapat melanjutkan ke langkah-langkah instalasi Python seperti yang dijelaskan di bagian [Jam ke-2: Instalasi Python di Windows](#jam-ke-2-instalasi-python-di-windows) pada panduan ini.
 
 ---
+---
 
+## ⚙️ Langkah-Langkah Instalasi Python 3.9.13 di Windows
+
+[[Kembali ke Daftar Isi](#daftar-isi)]
+
+Bagian ini akan memandu Anda melalui proses instalasi *file* `python-3.9.13-amd64.exe`.
+
+**Langkah 1: Jalankan File Installer**
+
+1.  **Temukan File Installer:** Setelah Anda berhasil mengunduh *file* `python-3.9.13-amd64.exe` (baik dari situs resmi atau dari Google Drive yang disediakan), cari lokasi *file* tersebut di komputer Anda (biasanya di folder "Unduhan" atau "Downloads").
+
+2.  **Jalankan Installer:** Klik dua kali (*double-click*) pada *file* `python-3.9.13-amd64.exe` untuk memulai proses instalasi. Anda mungkin akan melihat jendela peringatan keamanan dari Windows, klik **"Run"** atau **"Jalankan"** untuk melanjutkan.
+
+**Langkah 2: Konfigurasi Instalasi Penting**
+
+Di jendela instalasi Python pertama, Anda akan melihat dua opsi utama di bagian bawah:
+
+* **Install now**
+* **Customize installation**
+
+**Sangat penting untuk mencentang dua kotak di bawah opsi ini:**
+
+* **☑️ Add Python 3.9 to PATH**
+* **☑️ Use default settings** (biasanya sudah tercentang jika Anda memilih "Install now") atau pastikan opsi `pip` tercentang jika Anda memilih "Customize installation".
+
+    **Mengapa ini penting?** Mencentang **"Add Python 3.9 to PATH"** akan secara otomatis menambahkan direktori Python dan *script*-nya (termasuk `pip`) ke *Environment Variables* Windows Anda. Ini memungkinkan Anda menjalankan perintah `python` dan `pip` dari Command Prompt (CMD) tanpa harus menentukan lokasi *file* secara manual.
+
+**Langkah 3: Lanjutkan Proses Instalasi**
+
+1.  **Pilih Metode Instalasi:**
+    * **Disarankan untuk Pemula:** Klik **"Install Now"** untuk instalasi dengan pengaturan standar.
+    * **Jika Anda ingin mengubah lokasi instalasi atau memilih komponen tertentu:** Klik **"Customize installation"**. Pada layar berikutnya, pastikan opsi **"pip"** tercentang. Anda juga bisa mengubah lokasi instalasi jika perlu. Klik **"Next"** setelah memilih opsi Anda. Pada layar "Advanced Options", **pastikan kotak "Add Python to environment variables" tercentang**. Kemudian, klik **"Install"**.
+
+2.  **Tunggu Proses Instalasi:** Proses instalasi akan berjalan. Tunggu hingga selesai. Anda akan melihat bilah kemajuan yang menunjukkan status instalasi.
+
+3.  **Selesaikan Instalasi:** Setelah instalasi berhasil, Anda akan melihat jendela dengan pesan **"Setup was successful"**. Klik tombol **"Close"** atau **"Tutup"**.
+
+**Langkah 4: Memastikan Python dan PIP Terdeteksi di Windows**
+
+Setelah instalasi selesai, kita akan memverifikasi bahwa Python dan PIP telah terinstal dengan benar dan *path*-nya sudah tervalidasi di *environment* Windows Anda. Kita akan menggunakan Command Prompt (CMD) untuk ini.
+
+1.  **Buka Command Prompt (CMD):**
+    * Tekan tombol **Windows** pada *keyboard* Anda.
+    * Ketik `cmd`.
+    * Klik pada **"Command Prompt"** dari hasil pencarian.
+
+2.  **Verifikasi Instalasi Python:** Di jendela CMD, ketik perintah berikut dan tekan **Enter**:
+
+    ```cmd
+    python --version
+    ```
+
+    Jika Python terinstal dengan benar dan *path* sudah diatur, Anda akan melihat output yang menunjukkan versi Python yang telah Anda instal (dalam kasus ini, seharusnya `Python 3.9.13`). Contoh output:
+
+    ```
+    Python 3.9.13
+    ```
+
+3.  **Verifikasi Instalasi PIP:** Di jendela CMD yang sama, ketik perintah berikut dan tekan **Enter**:
+
+    ```cmd
+    pip --version
+    ```
+
+    Jika PIP terinstal dengan benar dan *path*-nya juga sudah diatur, Anda akan melihat output yang menunjukkan versi PIP dan lokasi instalasinya. Contoh output:
+
+    ```
+    pip 21.2.4 from C:\Users\<NamaPenggunaAnda>\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\pip (python 3.9)
+    ```
+
+    **Catatan:** Lokasi PIP pada output Anda mungkin berbeda tergantung pada bagaimana Anda menginstal Python.
+
+**Langkah 5: Memeriksa Environment Variables (Opsional, Jika Ada Masalah)**
+
+Jika Anda mengalami masalah (misalnya, perintah `python` atau `pip` tidak dikenali), Anda mungkin perlu memeriksa *Environment Variables* secara manual untuk memastikan *path* Python telah ditambahkan.
+
+1.  **Buka System Properties:**
+    * Tekan tombol **Windows** pada *keyboard* Anda.
+    * Ketik `environment variables`.
+    * Pilih **"Edit the system environment variables"**.
+
+2.  **Klik Tombol "Environment Variables...":** Di jendela "System Properties", klik tombol **"Environment Variables..."**.
+
+3.  **Periksa Variabel "Path" di "User variables" atau "System variables":**
+    * Cari variabel bernama **"Path"** di salah satu bagian tersebut (biasanya di "User variables" untuk instalasi khusus pengguna, atau di "System variables" untuk instalasi seluruh sistem).
+    * Pilih variabel **"Path"** dan klik tombol **"Edit..."**.
+
+4.  **Verifikasi Path Python:** Di jendela "Edit environment variable", pastikan Anda melihat dua entri yang terkait dengan Python:
+
+    * Satu entri mengarah ke direktori utama instalasi Python (misalnya, `C:\Users\<NamaPenggunaAnda>\AppData\Local\Programs\Python\Python39`).
+    * Satu entri lagi mengarah ke direktori *Scripts* Python (misalnya, `C:\Users\<NamaPenggunaAnda>\AppData\Local\Programs\Python\Python39\Scripts`).
+
+    **Catatan:** Lokasi ini bisa berbeda tergantung pada pilihan instalasi Anda. Jika Anda mencentang "Add Python to PATH" saat instalasi, entri ini seharusnya sudah ada.
+
+5.  **Tambahkan Path Jika Belum Ada (Hanya Jika Diperlukan):** Jika salah satu atau kedua *path* di atas tidak ada, klik tombol **"New"** dan tambahkan *path* yang sesuai. Pastikan Anda memasukkan *path* yang benar sesuai dengan lokasi instalasi Python Anda.
+
+6.  **Klik "OK":** Klik **"OK"** pada semua jendela yang terbuka untuk menyimpan perubahan.
+
+7.  **Restart CMD:** Tutup semua jendela Command Prompt yang terbuka dan buka CMD baru agar perubahan *Environment Variables* diterapkan. Kemudian, coba lagi perintah `python --version` dan `pip --version`.
+
+Dengan mengikuti langkah-langkah ini, Anda akan berhasil menginstal Python 3.9.13 dan memastikan Python serta PIP dapat digunakan di sistem Windows Anda.
+
+---
 **Menjalankan Installer Python:**
 Klik dua kali *file* `.exe`. **Pastikan centang "Add Python X.X to PATH"**. Ikuti langkah instalasi.
 
