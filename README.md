@@ -10,6 +10,9 @@ STAGES 001:  GREEN TECH INNOVATE (MEETING 001)
 
 ---
 
+![PROGRAM ECC X NIN](https://github.com/arry-hutomo/Sesi_001_ECOTECHNOLEADERS/raw/main/PROGRAM%20ECC%20X%20NIN.png)
+
+
 ## 📚 Daftar Isi
 
 1.  [Jam ke-1: Pengenalan Command Prompt (CMD)](#jam-ke-1-pengenalan-command-prompt-cmd)
