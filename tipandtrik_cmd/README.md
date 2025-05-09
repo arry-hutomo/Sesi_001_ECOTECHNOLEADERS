@@ -7,7 +7,7 @@
 
 ---
 1.  **🔍 Kepoin Biodata Laptop Kamu (Biar Makin Kenal Kayak Bestie!):**
-    * **Perintah CMD:** ```bash systeminfo ```
+    * **Perintah CMD:** bash ```systeminfo ```
     * **Narasinya:** Penasaran banget sama spek lengkap laptop kamu? 🤔 Pengen tahu RAM-nya berapa giga, prosesornya jenis apa, Windows-nya versi jadul apa kekinian, terakhir di-*update* kapan, sampe info kartu Wi-Fi segala? 📶 Ketik aja perintah sakti **`systeminfo`** di CMD terus pencet **Enter**. BOOM! 💥 Semua info penting tentang "jeroan" laptop kamu langsung nongol kayak lagi buka profil IG! Ini penting banget buat mastiin aplikasi atau game yang mau kamu install tuh cocok sama "style" laptop kamu. 😉
 ---
 2.  **🕵️‍♀️ Ngintip Aktivitas Rahasia di Balik Layar (Kayak Stalking Gebetan!):**
