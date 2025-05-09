@@ -1,6 +1,10 @@
 # 🚀 SIAP MELONGO?! 10 Jurus Rahasia CMD Buat Eco-Techno Leaders Kekinian! 💻✨
+---
 
-Wih, Eco-Techno Leaders! 😎 Kalian yang baru nyemplung dunia komputer, siap-siap ya! Nih, Kakak kasih bocoran 10 trik perintah CMD super *epic* yang bakal bikin kalian ngerasa kayak *hacker* beneran! 😈 Padahal, cuma ketik beberapa kata ajaib di layar hitam itu! 🧙‍♂️ Dijamin, abis ini kalian bakal makin kenal sama "daleman" laptop kalian dan bisa ngelakuin hal-hal yang bikin temen-temen kalian auto-melongo! 👀 Yuk, langsung aja kita spill satu per satu! 👇
+###### Wih, Eco-Techno Leaders! 😎 Kalian yang baru nyemplung dunia komputer, siap-siap ya! Nih, Kakak kasih bocoran 10 trik perintah CMD super *epic* yang bakal bikin kalian ngerasa kayak *hacker* beneran! 😈 Padahal, cuma ketik beberapa kata ajaib di layar hitam itu! 🧙‍♂️ Dijamin, abis ini kalian bakal makin kenal sama "daleman" laptop kalian dan bisa ngelakuin hal-hal yang bikin temen-temen kalian auto-melongo! 
+
+#### 👀 Yuk, langsung aja kita spill satu per satu! 👇
+
 ---
 1.  **🔍 Kepoin Biodata Laptop Kamu (Biar Makin Kenal Kayak Bestie!):**
     * **Perintah CMD:** `systeminfo`
