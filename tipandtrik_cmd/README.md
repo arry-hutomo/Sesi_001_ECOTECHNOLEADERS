@@ -16,11 +16,19 @@
 ---
 2.  **🕵️‍♀️ Ngintip Aktivitas Rahasia di Balik Layar (Kayak Stalking Gebetan!):**
     * **Perintah CMD:** `tasklist`
+      
+    ```bash
+    tasklist
+    ```
     * **Narasinya:** Laptop kamu kok kayak siput jalannya? 🐌 Pengen tahu aplikasi atau proses apa aja sih yang lagi bikin laptop kamu jadi lemot kayak lagi puasa sinyal? 😫 Cobain deh ketik **`tasklist`** di CMD terus **Enter**. Langsung deh keluar daftar semua aplikasi dan proses yang lagi aktif, lengkap sama ID proses dan seberapa banyak "makanan" (memori) yang mereka lahap! 🍔 Jadi, kalau ada yang mencurigakan atau rakus banget memorinya, bisa kamu catet ID-nya buat di-*end* nanti. 🔪
 ---
 3.  **💢 "Nge-Kick" Aplikasi yang Bikin Ngadat (Bye-bye, Ngelag! 👋):**
     * **Perintah CMD:** `taskkill /PID <Process ID>` (ganti `<Process ID>` sama ID proses yang mau diakhiri) ATAU `taskkill /IM <nama_aplikasi>.exe /F` (ganti `<nama_aplikasi>.exe` sama nama file aplikasi yang bandel)
     * **Narasinya:** Udah ketemu nih aplikasi atau proses yang bikin laptop kamu kayak lagi konser *slow motion*? 😩 Jangan emosi dulu! Kamu bisa "usir paksa" dia lewat CMD! 💪 Caranya gampang: pake jurus **`taskkill`**. Kalau udah tau ID prosesnya (dari perintah `tasklist` tadi), ketik **`taskkill /PID [ID Proses]`** terus **Enter**. Lebih *simple* lagi kalau kamu tau nama *file* aplikasinya (biasanya ada `.exe` di belakang), ketik **`taskkill /IM [nama_aplikasi].exe /F`** terus **Enter**. Dijamin, aplikasi yang bikin kesel langsung auto-keluar! 🚪
+  
+  ```bash
+    taskkill /PID <Process ID>
+  ```
 ---
 4.  **🩺 Cek Kesehatan Sinyal Internet Kamu (Biar Gak Putus Cinta Sama Wi-Fi! 💔):**
     * **Perintah CMD:** `ping <Alamat Website atau IP>` (ganti `<Alamat Website atau IP>` sama alamat website atau IP yang mau dicek, contoh: `ping google.com` atau `ping 8.8.8.8`)
@@ -28,11 +36,23 @@
 ---
 5.  **🗺️ Bongkar Detail Konfigurasi Jaringan Kamu (Kayak Baca Peta Harta Karun Internet! 💰):**
     * **Perintah CMD:** `ipconfig /all`
+
+  ```bash
+    ipconfig /all
+  ```
+---
     * **Narasinya:** Penasaran sama semua info detail koneksi internet kamu? 🧐 Alamat IP kamu berapa, *gateway*-nya kemana, DNS servernya siapa, alamat MAC kartu Wi-Fi kamu apa, dan segudang info lainnya? 🤯 Ketik **`ipconfig /all`** di CMD terus **Enter**. Semua rahasia konfigurasi jaringan kamu bakal kebongkar! Ini berguna banget buat nyari masalah kalau tiba-tiba internet kamu ngambek. 😠
   
     * `netsh wlan show profiles`
+  ```bash
+    netsh wlan show profiles
+  ```
+    
     * `netsh wlan show profile name="NAMA_PROFIL_WIFI" key=clear`
-    * 
+
+  ```bash
+    netsh wlan show profile name="NAMA_PROFIL_WIFI" key=clear
+  ```
 ini bisa ngecek "perangkat Anda kemana aja hehehe pakai WIFI public" 
 
 ---
