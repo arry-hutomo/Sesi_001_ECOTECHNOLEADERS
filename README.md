@@ -275,6 +275,60 @@ Klik dua kali *file* `.exe`. Setujui lisensi, pilih lokasi (opsional), dan **cen
 **Instalasi Extension Python di VS Code:**
 Buka VS Code, klik ikon **Extensions**, cari `Python` (Microsoft), dan klik **Install**.
 
+---
+## LEBIH DETAIL SEBAGAI BERIKUT:
+
+######
+# Proyek AI Engineering dengan Python dan Analisis Database
+
+Repository ini berisi *source code* dan materi terkait proyek AI Engineering yang dikembangkan menggunakan Python, dengan fokus pada kemampuan analisis database. Untuk pengalaman pengembangan yang optimal, disarankan untuk menggunakan Visual Studio Code (VS Code) dengan ekstensi-ekstensi berikut:
+
+## Ekstensi VS Code yang Direkomendasikan
+
+Berikut adalah daftar ekstensi VS Code yang sangat berguna untuk proyek ini, beserta penjelasan fungsi dan *publisher*-nya:
+
+### Untuk Formatting Kode Python yang Baik
+---
+1.  **Python** (*Publisher*: Microsoft)
+    * **Fungsi:** Ekstensi fundamental yang menyediakan dukungan bahasa Python secara menyeluruh di VS Code. Ini mencakup fitur seperti *IntelliSense* (pelengkapan kode otomatis, pemeriksaan sintaksis), *linting* (analisis kode untuk kesalahan dan gaya), *debugging* (alat untuk mencari dan memperbaiki *bug*), *testing* (integrasi dengan *framework* pengujian Python), dan banyak lagi. Ekstensi ini adalah fondasi utama untuk pengembangan Python.
+---
+2.  **Pylance** (*Publisher*: Microsoft)
+    * **Fungsi:** Sebuah *language server* yang sangat cepat dan kaya fitur untuk Python. Pylance menawarkan analisis kode yang lebih akurat dan performa yang lebih baik dibandingkan dengan *language server* bawaan dari ekstensi Python. Ini membantu dalam mendeteksi kesalahan pengetikan, saran kode yang lebih cerdas, dan pemahaman kode yang lebih baik secara keseluruhan.
+---
+3.  **Black Formatter** (*Publisher*: ms-python)
+    * **Fungsi:** Sebuah *code formatter* otomatis yang memastikan kode Python Anda sesuai dengan gaya yang konsisten. Black secara otomatis mengatur format kode seperti spasi, baris baru, dan panjang baris agar sesuai dengan standar yang telah ditentukan. Ini membantu menjaga kode tetap bersih dan mudah dibaca tanpa perlu memformatnya secara manual.
+---
+4.  **flake8** (*Publisher*: Coala)
+    * **Fungsi:** Sebuah *linter* yang membungkus beberapa alat pengecekan kode Python seperti PyFlakes, pycodestyle (pemeriksaan gaya PEP 8), dan McCabe (pemeriksaan kompleksitas kode). Flake8 membantu Anda menulis kode yang tidak hanya benar secara sintaksis tetapi juga sesuai dengan pedoman gaya Python dan menghindari potensi masalah atau kompleksitas yang berlebihan.
+---
+5.  **isort** (*Publisher*: ms-python)
+    * **Fungsi:** Ekstensi ini secara otomatis mengurutkan dan mengatur impor (*import*) dalam file Python Anda. Impor akan diurutkan secara alfabetis dan dipisahkan berdasarkan bagian standar, pihak ketiga, dan lokal. Ini membuat bagian impor kode Anda lebih terorganisir dan mudah dikelola.
+---
+---
+### Untuk Analisis Database
+---
+1.  **SQLTools** (*Publisher*: mtxr)
+    * **Fungsi:** Ekstensi yang sangat berguna untuk terhubung dan berinteraksi dengan berbagai jenis sistem manajemen basis data relasional (RDBMS) langsung dari dalam VS Code. Anda dapat membuat koneksi ke database seperti PostgreSQL, MySQL, SQL Server, SQLite, dan lainnya. Fiturnya meliputi menjalankan kueri SQL, melihat hasil dalam format tabel, menjelajahi skema database (tabel, kolom, *view*, dll.), dan melihat riwayat kueri.
+---
+2.  **Database Client** (*Publisher*: Bervariasi, contoh: Chris Kolkman, Jun Han, Microsoft)
+    * **Fungsi:** Bergantung pada jenis database yang sering Anda gunakan, mungkin ada ekstensi klien database spesifik yang menawarkan fitur yang lebih mendalam. Cari di *marketplace* VS Code berdasarkan nama database Anda (misalnya, "PostgreSQL", "MySQL", "SQL Server"). Ekstensi ini sering kali menyediakan fitur tambahan yang disesuaikan untuk database tertentu, seperti alat administrasi, visualisasi data yang lebih canggih, atau integrasi fitur spesifik database.
+---
+3.  **CSV to Table** (*Publisher*: Mehedi Hassan)
+    * **Fungsi:** Ekstensi sederhana yang memungkinkan Anda melihat file dengan format CSV (Comma Separated Values) dalam tampilan tabel yang rapi di dalam editor VS Code. Ini sangat membantu untuk memeriksa data dalam file CSV dengan cepat tanpa perlu membuka aplikasi *spreadsheet* eksternal.
+---
+4.  **Data Preview** (*Publisher*: RandomFractals Inc.)
+    * **Fungsi:** Ekstensi ini memungkinkan Anda melihat pratinjau data dalam format tabel untuk berbagai jenis file data, termasuk CSV dan JSON. Ini berguna untuk dengan cepat memeriksa konten file data Anda dalam format yang mudah dibaca sebelum atau selama proses analisis. Beberapa implementasi mungkin juga menawarkan fitur interaktif seperti penyortiran dan pemfilteran data.
+---
+## Cara Menginstal Ekstensi di VS Code
+
+1.  Buka Visual Studio Code.
+2.  Klik ikon **Extensions** di *Activity Bar* (bilah sisi di sebelah kiri, ikonnya terlihat seperti empat persegi). Atau gunakan pintasan keyboard `Ctrl+Shift+X` (Windows/Linux) atau `Cmd+Shift+X` (macOS).
+3.  Di kotak pencarian, ketik nama ekstensi yang ingin Anda instal (misalnya, "Python", "SQLTools").
+4.  Cari ekstensi yang sesuai dari daftar hasil dan klik tombol **Install** di samping nama ekstensi.
+5.  Setelah instalasi selesai, Anda mungkin perlu memuat ulang VS Code agar ekstensi aktif sepenuhnya.
+---
+Dengan menginstal ekstensi-ekstensi ini, Anda akan memiliki lingkungan pengembangan yang lebih produktif dan efisien untuk proyek AI Engineering dan analisis database Anda menggunakan Python di VS Code.
+---
 **Pengaturan Dasar VS Code:**
 
 * **Ubah Tema:** `File` > `Preferences` > `Color Theme`.
